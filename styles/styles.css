@@ -96,11 +96,12 @@ hamburger:focus{
 .reg-form {
   width: 95%;
   height: auto;
-  margin: 1rem auto;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin: 1rem auto;
+  border: 1px solid;
+  border: none;
   border-radius: 5px;
   color: #4a5568;
   background: #ffffff;
@@ -168,8 +169,8 @@ header p{
 
 .pass-control i{
   color: #000;
-  /* position: absolute;
-  right: 1rem; */
+  position: relative;
+  right: .2rem;
   border-left: 2px solid #000;
   font-size: 0.7rem;
   padding-left: 2px;
@@ -215,7 +216,7 @@ header p{
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-    /* box-shadow: 2px 0px 5px #000; */
+    box-shadow: 2px 0px 5px #000;
   }
   .desk-navigation .navul{
     /* width: 50%; */
@@ -242,5 +243,8 @@ header p{
   }
   .reg-form{
     width: 70%;
+  }
+  .pass-control i{
+    right: .2rem;
   }
 }
