@@ -96,7 +96,6 @@ hamburger:focus{
 .reg-form {
   width: 95%;
   height: auto;
-  /* min-width: 50%; */
   margin: 1rem auto;
   border: 1px solid;
   display: flex;
@@ -239,5 +238,8 @@ header p{
   .desk-navigation .logo img{
     width: 12rem;
     margin-left: 1rem;
+  }
+  .reg-form{
+    width: 70%;
   }
 }
