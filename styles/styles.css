@@ -185,15 +185,16 @@ header p{
   width: 90%;
   padding: 1rem;
   margin: 2rem auto 2.5rem;
-  background: #0d60d8;
+  background: burlywood;
   color: #ffffff;
   font-weight: 700;
+  border: none;
   border-radius: 10px 10px 10px 0;
   text-transform: uppercase;
   cursor: pointer;
 }
 .reg-form button:hover{
-  background: #062b6f;
+  background: rgba(147, 97, 27, 0.588);
 }
 
 
