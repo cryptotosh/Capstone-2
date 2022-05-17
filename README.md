@@ -1,4 +1,4 @@
-# SideHustle - Capstone Project 2
+# SideHustle - Capstone Project 2 by GROUP 105
 
 
 ## Group-members
